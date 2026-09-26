@@ -1,0 +1,8 @@
+{
+  "name": "Kᴀᴀʟɪx FREE APIS",
+  "description": "Kᴀᴀʟɪx FREE APIS — 67+ free APIs. No signup. No API key required.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/bluearchive", "destination": "https://api-rebix.vercel.app/api/bluearchive" },
+    { "source": "/api/pollinations/:path*", "destination": "https://image.pollinations.ai/:path*" },
+    { "source": "/api/v1/zone/:path*", "destination": "https://api-rebix.vercel.app/:path*" },
+    { "source": "/api/zone/:path*", "destination": "https://api-rebix.vercel.app/:path*" },
+    { "source": "/api/v1/:path*", "destination": "https://api-rebix.vercel.app/:path*" },
+    { "source": "/api/:path*", "destination": "https://api-rebix.vercel.app/api/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
